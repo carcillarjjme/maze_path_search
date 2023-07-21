@@ -36,7 +36,9 @@ ends = np.random.choice(range(4000,5007),5)
 
 ## Sample Result
 
-The **S** and **E** annotations represents the location of the starting and ending nodes as indicated in each title. The results would also be shown via Excel files where the path taken will be highlighted and with the node numbers
+Shown below are the results for the maze_101by101 maze which is comprised of 5007 path nodes. The **S** and **E** annotations represents the location of the starting and ending nodes as indicated in each title. Notice that results for DFS and BFS are identical. These may not always be the case. Also take node that the path highlighted here does not necessarily indcate the shortest path between the starting and ending nodes.
+
+Furthermore, the results would also be shown via Excel files where the path taken will be highlighted and with the node numbers
 preserved.
 
 ![result image](paths.png)
